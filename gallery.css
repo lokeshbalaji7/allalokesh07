@@ -1,0 +1,31 @@
+body{
+    background-image: url("images/msdgallerybg.jpg");
+    background-repeat: no-repeat;
+}
+.top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h3{
+    color: black;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 2px white;
+    text-decoration: underline;
+}
+.video1{
+    width:600px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: 5px 5px 2px black;
+}

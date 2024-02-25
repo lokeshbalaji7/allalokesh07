@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/indbg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  background-attachment: fixed;
+  background-position: center;
+ 
+  
+}
+.top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+.heading{
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+.gal{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.quotes{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+.slider{
+    width: 45%;
+    overflow: hidden;
+    margin: auto;
+    
+}
+.images{
+    display: flex;
+    width: 100%;
+   /* height: auto; */
+}
+.images img{
+    height: 400px;
+    width: 100%;
+
+    transition: all 0.15s ease;
+    /* height: auto; */
+}
+.images input{
+    display:none;
+}   
+.dots{
+    display: flex;
+    justify-content: center;
+    margin:5px;
+}
+
+.dots label{
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    border:solid #fff 3px;
+    cursor:pointer;
+    transition:all 0.15s ease;
+    margin: 5px;
+
+}
+.dots label:hover{background: #fff;}
+#img1:checked ~ .m1{
+    margin-left: 0%;
+}
+#img2:checked ~ .m2{
+    margin-left: -100%;
+}
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+.para{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+.heading3{
+    color: white;
+    text-shadow: 10px 5px 3px blue;
+    text-align: center;
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    
+    box-shadow: 0 0 10px white;
+  }
+  
+  .runs-container {
+    display: flex;
+    justify-content: space-around;
+  
+
+  }
+  
+  .runs-type {
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .counter {
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100px;
+    text-align: center;
+    animation: countUp 5s ease-in-out forwards;
+  }
+  
+  @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+@media screen and (max-width:600px){
+    .slider{
+        width: 90%;    
+    }
+} 
+@media (min-width:601px) and (max-width:888px){
+    .slider{
+        width: 90%;
+        
+    }
+} 
+@media (min-width:888px) and (max-width:1144px){
+    .slider{
+        width: 80%;
+        
+    }
+} 
+ul{
+    list-style-type: none;
+}
+

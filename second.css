@@ -1,0 +1,36 @@
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+.slideshow{
+    overflow: hidden;
+}  
+.mySlides {
+    display:inline;
+}
+  
+.slideshow-container img {
+    width: 100%;
+    height: auto;
+}
+  
+.radio-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+  input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + label {
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+input[type="radio"]:checked + label {
+    background-color: black;
+}
